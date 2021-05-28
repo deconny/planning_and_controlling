@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<launch>
-	<arg name="num" default="0"/>	
-	<!--  -->
-	<node pkg="planning_and_controlling" type="receive_scan" name="receive_scan" output="screen">
-                <param name="num" value="$(arg num)"/>                  
-        </node>
-</launch>
